@@ -27,7 +27,14 @@ ADD_DEFINITIONS(-D USE_CPU -D_CRT_SECURE_NO_DEPRECATE)
 
 #Setting Source Files
 SET(SRC_LIST
-	
+	main.cpp
+	City.cpp
+	City.h
+	People.cpp
+	People.h
+	ReadData.cpp
+	ReadData.h
+
 )
 
 INCLUDE_DIRECTORIES(${INC_DIR} ${HEADER_DIR})
